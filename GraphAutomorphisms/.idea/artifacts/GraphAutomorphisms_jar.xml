@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="GraphAutomorphisms:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/GraphAutomorphisms_jar</output-path>
+    <root id="archive" name="GraphAutomorphisms.jar">
+      <element id="module-output" name="GraphAutomorphisms" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.javafx/javafx.web.jar" path-in-jar="/" />
+      <element id="library" level="project" name="javafx-swt" />
+    </root>
+  </artifact>
+</component>

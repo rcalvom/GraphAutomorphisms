@@ -1,6 +1,5 @@
 package Controllers;
 
-import DataStructures.List.List;
 import Model.GraphModel;
 import Singletons.Stages;
 import Views.ControlsView;
@@ -37,10 +36,6 @@ public class Controls {
 
     public void Show(){
         this.view.Show(Stages.getStages().getControlsStage());
-    }
-
-    public GraphModel getGraphModel() {
-        return graphModel;
     }
 
     private class CreateVertex implements EventHandler<ActionEvent> {
@@ -110,7 +105,6 @@ public class Controls {
         @Override
         public void invalidated(Observable observable) {
             if(view.getCBEdgeA().getSelectionModel().getSelectedItem() == null || view.getCBEdgeB().getSelectionModel().getSelectedItem() == null){
-                return;
             }else if((int)view.getCBEdgeA().getSelectionModel().getSelectedItem() == (int) view.getCBEdgeB().getSelectionModel().getSelectedItem()){
                 view.getBEdge().setDisable(true);
             }else{
